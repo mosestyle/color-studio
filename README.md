@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Color Studio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive color palette generator built with React. Generate balanced color palettes, search by color name or hex code, filter by categories, and more.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Color Palette Generator
+- Five equal-width color columns spanning the full height of the screen
+- Spacebar triggers random color palette generation
+- Color hex codes and names displayed at the bottom of each column
+- Balanced palette generation with 3 dark colors, 1 neutral, and 1 accent color
 
-### `npm start`
+### Lock System
+- Lock buttons at the top of each column
+- Locked colors remain unchanged when generating new palettes
+- Adaptive icon colors based on contrast ratios
+- Semi-transparent background for better visibility
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Color Interaction
+- On-hover control panels for each color column
+- Copy current color functionality
+- Color shades display showing 9 variations (darker to lighter)
+- Click on any shade to copy its hex value
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Search & Filtering
+- Search by color name or hex code
+- Filter by predefined categories (Nature, Technology, Food, Fashion, Art)
+- Real-time results as you type
+- Clear search option with one click
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/color-studio.git
+cd color-studio
