@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/color-studio/static/css/main.361bfbed.chunk.css",
+    "main.js": "/color-studio/static/js/main.c3f8cad3.chunk.js",
+    "main.js.map": "/color-studio/static/js/main.c3f8cad3.chunk.js.map",
+    "runtime~main.js": "/color-studio/static/js/runtime~main.49327c20.js",
+    "runtime~main.js.map": "/color-studio/static/js/runtime~main.49327c20.js.map",
+    "static/js/2.ae026ab9.chunk.js": "/color-studio/static/js/2.ae026ab9.chunk.js",
+    "static/js/2.ae026ab9.chunk.js.map": "/color-studio/static/js/2.ae026ab9.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/color-studio/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/color-studio/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/color-studio/index.html",
+    "precache-manifest.5237728e16974c1641091fa76eb2d81a.js": "/color-studio/precache-manifest.5237728e16974c1641091fa76eb2d81a.js",
+    "service-worker.js": "/color-studio/service-worker.js",
+    "static/css/main.361bfbed.chunk.css.map": "/color-studio/static/css/main.361bfbed.chunk.css.map"
+  }
+}
