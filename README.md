@@ -1,3 +1,5 @@
+Site: https://mosestyle.github.io/color-studio/
+
 # Color Studio
 
 An interactive color palette generator built with React. Generate balanced color palettes, search by color name or hex code, filter by categories, and more.
